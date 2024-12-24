@@ -15,8 +15,8 @@ server:
   port: 3001
 
 jwt:
-  issuer: admin@blog.yours.com
-  secret-key: ef545634be1921b6a91ef1603b75132daa45a23aee135096f76dd0915ece7f3b
+  issuer: .
+  secret-key: .
   duration: 1 # 1분
   refresh-duration: 3 # 3분
 
