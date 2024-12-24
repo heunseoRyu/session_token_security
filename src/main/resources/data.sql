@@ -1,0 +1,1 @@
+insert into member(username, email, password) values ('1', 'a@a.com', '$2a$10$cQYqQcZM0NX9DaRwK0nWRe0auMWdgKKtPxtpFG0SKs2UW.2FQaxOe')

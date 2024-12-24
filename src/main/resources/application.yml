@@ -1,0 +1,24 @@
+spring:
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+    defer-datasource-initialization: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+  h2:
+    console:
+      enabled: true
+
+server:
+  port: 3001
+
+jwt:
+  issuer: admin@blog.yours.com
+  secret-key: ef545634be1921b6a91ef1603b75132daa45a23aee135096f76dd0915ece7f3b
+  duration: 1 # 1분
+  refresh-duration: 3 # 3분
+
+file:
+  dir: /Users/dgsw8th04/files # pwd
